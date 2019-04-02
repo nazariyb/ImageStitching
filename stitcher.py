@@ -16,7 +16,7 @@ imageA = imutils.resize(imageA, width=4160)
 imageB = imutils.resize(imageB, width=4160)
 
 stitcher = Stitcher()
-(result, vis) = stitcher.stitch([imageA, imageB], showMatches=True)
+result, vis = stitcher.stitch([imageA, imageB], show_matches=True)
 
 # cv2.imwrite("imageA.png", imageA)
 # cv2.imwrite("imageB.png", imageB)
