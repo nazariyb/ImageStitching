@@ -1,0 +1,8 @@
+.git/
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+examples/ImageStitcherOpenCV/TwoImageStitching/__pycache__/
+examples/SIFT/.ipynb_checkpoints/
+examples/SIFT/__pycache__/
+docs/
